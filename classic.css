@@ -1,0 +1,74 @@
+.admonition {
+  @apply mb-2 p-4;
+}
+
+.admonition h5 {
+  @apply mt-0 mb-2 uppercase;
+}
+
+.admonition-icon {
+  @apply inline-block align-middle mr-1 
+}
+
+.admonition-icon svg {
+  @apply inline-block h-5 w-5 stroke-0 mb-1
+}
+
+.admonition-content > :last-child {
+  @apply mb-0
+}
+
+/* default for custom types */
+.admonition {
+  @apply bg-purple-100 border-l-8 border-purple-600
+}
+
+.admonition h5 {
+  @apply text-purple-600
+}
+
+/** native types */
+.admonition-caution {
+  @apply bg-orange-100 border-l-8 border-orange-600
+}
+
+.admonition-caution h5 {
+  @apply text-orange-600
+}
+
+.admonition-tip {
+  @apply bg-green-100 border-l-8 border-green-600
+}
+
+.admonition-tip h5 {
+  @apply text-green-600
+}
+
+.admonition-warning {
+  @apply bg-red-100 border-l-8 border-red-600
+}
+
+.admonition-warning h5 {
+  @apply text-red-600
+}
+
+.admonition-important {
+  @apply bg-blue-100 border-l-8 border-blue-500
+}
+
+.admonition-important h5 {
+  @apply text-blue-600
+}
+
+
+.admonition-note {
+  @apply bg-yellow-100 border-l-8 border-yellow-500;
+}
+
+.admonition-note h5 {
+  @apply text-yellow-500
+}
+
+.admonition .admonition-icon svg {
+  @apply stroke-current fill-current;
+} 
