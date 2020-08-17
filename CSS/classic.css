@@ -1,0 +1,133 @@
+.admonition {
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+
+.admonition h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.admonition-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.25rem
+}
+
+.admonition-icon svg {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  stroke-width: 0;
+  margin-bottom: 0.25rem
+}
+
+.admonition-content > :last-child {
+  margin-bottom: 0
+}
+
+/* default for custom types */
+
+.admonition {
+  --bg-opacity: 1;
+  background-color: #faf5ff;
+  background-color: rgba(250, 245, 255, var(--bg-opacity));
+  border-left-width: 8px;
+  --border-opacity: 1;
+  border-color: #805ad5;
+  border-color: rgba(128, 90, 213, var(--border-opacity))
+}
+
+.admonition h5 {
+  --text-opacity: 1;
+  color: #805ad5;
+  color: rgba(128, 90, 213, var(--text-opacity))
+}
+
+/** native types */
+
+.admonition-caution {
+  --bg-opacity: 1;
+  background-color: #fffaf0;
+  background-color: rgba(255, 250, 240, var(--bg-opacity));
+  border-left-width: 8px;
+  --border-opacity: 1;
+  border-color: #dd6b20;
+  border-color: rgba(221, 107, 32, var(--border-opacity))
+}
+
+.admonition-caution h5 {
+  --text-opacity: 1;
+  color: #dd6b20;
+  color: rgba(221, 107, 32, var(--text-opacity))
+}
+
+.admonition-tip {
+  --bg-opacity: 1;
+  background-color: #f0fff4;
+  background-color: rgba(240, 255, 244, var(--bg-opacity));
+  border-left-width: 8px;
+  --border-opacity: 1;
+  border-color: #38a169;
+  border-color: rgba(56, 161, 105, var(--border-opacity))
+}
+
+.admonition-tip h5 {
+  --text-opacity: 1;
+  color: #38a169;
+  color: rgba(56, 161, 105, var(--text-opacity))
+}
+
+.admonition-warning {
+  --bg-opacity: 1;
+  background-color: #fff5f5;
+  background-color: rgba(255, 245, 245, var(--bg-opacity));
+  border-left-width: 8px;
+  --border-opacity: 1;
+  border-color: #e53e3e;
+  border-color: rgba(229, 62, 62, var(--border-opacity))
+}
+
+.admonition-warning h5 {
+  --text-opacity: 1;
+  color: #e53e3e;
+  color: rgba(229, 62, 62, var(--text-opacity))
+}
+
+.admonition-important {
+  --bg-opacity: 1;
+  background-color: #ebf8ff;
+  background-color: rgba(235, 248, 255, var(--bg-opacity));
+  border-left-width: 8px;
+  --border-opacity: 1;
+  border-color: #4299e1;
+  border-color: rgba(66, 153, 225, var(--border-opacity))
+}
+
+.admonition-important h5 {
+  --text-opacity: 1;
+  color: #3182ce;
+  color: rgba(49, 130, 206, var(--text-opacity))
+}
+
+.admonition-note {
+  --bg-opacity: 1;
+  background-color: #fffff0;
+  background-color: rgba(255, 255, 240, var(--bg-opacity));
+  border-left-width: 8px;
+  --border-opacity: 1;
+  border-color: #ecc94b;
+  border-color: rgba(236, 201, 75, var(--border-opacity));
+}
+
+.admonition-note h5 {
+  --text-opacity: 1;
+  color: #ecc94b;
+  color: rgba(236, 201, 75, var(--text-opacity))
+}
+
+.admonition .admonition-icon svg {
+  stroke: currentColor;
+  fill: currentColor;
+} 
