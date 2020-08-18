@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "alias":"tw-remark-admonitions.vercel.app"
+  "alias":"tw-remark-admonitions.vercel.app",
+  "github": {
+	    "silent": true
+	}
 } 
