@@ -10,7 +10,7 @@ const App = ({Component, pageProps}) => (
     <Head>
       <title>Tailwind Remark Admonitions</title>
     </Head>
-    <div className="container mx-auto prose pt-6">
+    <div className="container mx-auto prose pt-6 px-6">
       <Component {...pageProps} />
     </div>
     </>
