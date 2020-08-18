@@ -1,2 +1,2 @@
-# tailwind-remark-admonitions
-Themes for Remark Admonitions based on Tailwind CSS
+# Tailwind Remark Admonitions
+Themes for Remark Admonitions using Tailwind CSS, also compiled to standard CSS
