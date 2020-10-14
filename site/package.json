@@ -21,6 +21,6 @@
     "remark-admonitions": "^1.2.1",
     "remark-emoji": "^2.1.0",
     "remark-images": "^2.0.0",
-    "tailwindcss": "^1.9.0"
+    "tailwindcss": "^1.9.1"
   }
 }
