@@ -17,7 +17,7 @@
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
     "react": "^16.14.0",
-    "react-dom": "^16.13.1",
+    "react-dom": "^16.14.0",
     "remark-admonitions": "^1.2.1",
     "remark-emoji": "^2.1.0",
     "remark-images": "^2.0.0",
