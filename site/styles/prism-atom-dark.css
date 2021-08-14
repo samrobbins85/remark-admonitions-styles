@@ -168,9 +168,7 @@ pre[class*="language-"] {
 /* New overrides */
 code[class*="language-"],
 pre[class*="language-"] {
-  @apply subpixel-antialiased !important;
   @apply text-code-white !important;
-  @apply scrolling-touch !important;
 }
 .token.comment {
   @apply text-gray-500 !important;
